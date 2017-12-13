@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/system">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/node_icon"/>
+
+        <TextView
+            android:id="@+id/systemText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(1) system"
+            android:textSize="14pt"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sysError"
+        android:paddingLeft="30dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/leaf_r_icon"/>
+
+        <TextView
+            android:id="@+id/sysErrorText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(1) sysError"
+            android:textSize="14pt"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sysDevicesTable"
+        android:paddingLeft="30dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/table_icon"/>
+
+        <TextView
+            android:id="@+id/sysDevicesTableText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(2) sysDevicesTable"
+            android:textSize="14pt"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sysDevicesEntry"
+        android:paddingLeft="60dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/entry_icon"/>
+
+        <TextView
+            android:id="@+id/sysDevicesEntryText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(1) sysDevicesEntry"
+            android:textSize="14pt"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+                <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sysDevicesID"
+        android:paddingLeft="90dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/leaf_r_icon"/>
+
+        <TextView
+            android:id="@+id/sysDevicesIDText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(1) sysDevicesID"
+            android:textSize="14pt"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+                <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sysDevicesIP"
+        android:paddingLeft="90dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/leaf_r_icon"/>
+
+        <TextView
+            android:id="@+id/sysDevicesIPText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(2) sysDevicesIP"
+            android:textSize="14pt"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sysNetworkStatus"
+        android:paddingLeft="30dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/leaf_r_icon"/>
+
+        <TextView
+            android:id="@+id/sysNetworkStatusText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(3) sysNetworkStatus"
+            android:textSize="14pt"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sysBluetoothStatus"
+        android:paddingLeft="30dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/leaf_r_icon"/>
+
+        <TextView
+            android:id="@+id/sysBluetoothStatusText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(4) sysBluetoothStatus"
+            android:textSize="13.5pt"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sensor">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/node_icon"/>
+
+        <TextView
+            android:id="@+id/sensorText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(2) sensor"
+            android:textSize="14pt"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sensZonesTable"
+        android:paddingLeft="30dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/table_icon"/>
+
+        <TextView
+            android:id="@+id/sensZonesTableText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(1) sensZonesTable"
+            android:textSize="14pt"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sensZonesEntry"
+        android:paddingLeft="60dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/entry_icon"/>
+
+        <TextView
+            android:id="@+id/sensZonesEntryText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(1) sensZonesEntry"
+            android:textSize="14pt"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+                <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sensZone"
+        android:paddingLeft="90dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/leaf_r_icon"/>
+
+        <TextView
+            android:id="@+id/sensZoneText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(1) sensZone"
+            android:textSize="14pt"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+                <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sensTemperature"
+        android:paddingLeft="90dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/leaf_rw_icon"/>
+
+        <TextView
+            android:id="@+id/sensTemperatureText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(2) sensTemperature"
+            android:textSize="11.8pt"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+                <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sensHumidity"
+        android:paddingLeft="90dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/leaf_rw_icon"/>
+
+        <TextView
+            android:id="@+id/sensHumidityText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(3) sensHumidity"
+            android:textSize="14pt"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+                <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/sensCamera"
+        android:paddingLeft="90dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/leaf_r_icon"/>
+
+        <TextView
+            android:id="@+id/sensCameraText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(4) sensCamera"
+            android:textSize="14pt"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+</LinearLayout>
+</ScrollView>
